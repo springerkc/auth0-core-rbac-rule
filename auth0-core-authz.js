@@ -1,5 +1,5 @@
 function (user, context, callback) {
-	const fetch = require('node-fetch');
+  const fetch = require('node-fetch');
   const namespace = 'https://<someDomain>.com/';
   const base = 'https://<someDomain>.auth0.com';
   const domain = user.email.split('@')[1].split('.com')[0];
